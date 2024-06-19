@@ -33,7 +33,7 @@ jobs:
       uses: docker/build-push-action@v6.0.1
       with:
         context: src
-        file: src/DockerFile
+        file: DockerFile
         push: true
         tahs: |
           eltergirotto/aula-conversao-temperatura:v1
