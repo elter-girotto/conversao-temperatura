@@ -13,7 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Steup do NodeJS
+    - name: Setup do NodeJS
       uses: actions/setup-node@v4.0.2
       with: 
         node-version: 22.2.0
