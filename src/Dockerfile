@@ -7,4 +7,4 @@ RUN npm install
 #copia todo restante para o diretorio /app
 COPY . . 
 #inicializa a aplicação
-CMD ["node", "server.js]
+CMD ["node", "server.js"]
