@@ -43,7 +43,7 @@ jobs:
         context: ./src
         file: ./src/DockerFile
         push: true
-        tahs: |
+        tags: |
           eltergirotto/aula-conversao-temperatura:v1
           eltergirotto/aula-conversao-temperatura:latest
     
